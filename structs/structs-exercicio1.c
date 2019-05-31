@@ -1,3 +1,8 @@
+/*
+Escrever um programa que cadastre o nome, a matrícula e duas notas de vários
+alunos. Em seguida imprima a matrícula, o nome e a média de cada um deles.
+*/
+
 #include <stdio.h>
 
 // Definição da constate responsável pelo tamanho do array
