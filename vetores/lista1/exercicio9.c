@@ -41,14 +41,14 @@ int main () {
           printf("Vetor[%d]: %f\n", i, vetor[i]);
         }     
       break;
+      case 0:
+        printf("\nVoce encerrou o programa!\n");
+      break;
       default:
         printf("\nVoce informou uma opcao invalida, tente novamente!\n");
       break;
     }
   } while (cod != 0);
-
-  // Impressao final
-  printf("\nVoce encerrou o programa!\n");
 
   return 0;
 }
