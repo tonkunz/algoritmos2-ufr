@@ -1,14 +1,14 @@
 /*
-Escrever um programa que cadastre o nome, a matrícula e duas notas de vários
-alunos. Em seguida imprima a matrícula, o nome e a média de cada um deles.
+Escrever um programa que cadastre o nome, a matrÃ­cula e duas notas de vÃ¡rios
+alunos. Em seguida imprima a matrÃ­cula, o nome e a mÃ©dia de cada um deles.
 */
 
 #include <stdio.h>
 
-// Definição da constate responsável pelo tamanho do array
+// DefiniÃ§Ã£o da constate responsÃ¡vel pelo tamanho do array
 #define TAM 2
 
-// Definição da struct
+// Definiï¿½ï¿½o da struct
 struct cadastro {
 	char nome[30];
 	char mat[10];
@@ -16,12 +16,12 @@ struct cadastro {
 };
 
 int main() {
-	// Declaração do registro alunos usando a struct registro
+	// DeclaraÃ§Ã£o do registro alunos usando a struct registro
 	struct cadastro alunos[TAM]; 
 	int i;
 	float media;
 	
-	// Laço responsável pela leitura dos valores
+	// LaÃ§o responsÃ¡vel pela leitura dos valores
 	printf("\n---------- Cadastro de alunos -----------\n\n\n");
 	for (i=0;i<TAM;i++) {
 		printf("Cadastro numero %d\n", i+1);
@@ -36,7 +36,7 @@ int main() {
 		printf("\n");
 	}
 	
-	// Laço responsável pela impressão dos valores
+	// LaÃ§o responsÃ¡vel pela impressÃ£o dos valores
 	printf("\n---------- Medias dos alunos -----------\n\n\n");
 	for (i=0;i<TAM;i++) {
 		printf("Matricula.....: %s\n", alunos[i].mat);

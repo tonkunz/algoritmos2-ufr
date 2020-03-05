@@ -1,10 +1,10 @@
 /* Enunciado
 Escrever um programa que cadastre o nome, a altura, o peso, o cpf e sexo de
 algumas pessoas. Com os dados cadastrados, em seguida localizar uma pessoa
-através do seu CPF e imprimir o seu IMC
+atravÃ©s do seu CPF e imprimir o seu IMC
 */
 #include <stdio.h>
-// Para acesso a função strcmp() e comparar conteúdo de strings
+// Para acesso a funÃ§Ã£o strcmp() e comparar conteÃºdo de strings
 #include <stdlib.h>
 
 // Constantes
@@ -24,7 +24,7 @@ int main () {
 	int i;
 	char cpf_aux[30];
 	
-	// Laço responsável pela leitura dos valores
+	// LaÃ§o responsÃ¡vel pela leitura dos valores
 	printf("\n---------- Cadastro de pessoas -----------\n\n\n");
 	for(i=0;i<DIM;i++){
 		printf("Cadastro na posicao %d\n", i);
